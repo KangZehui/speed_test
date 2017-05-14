@@ -1,0 +1,16 @@
+F:\kzh\project\CGISS\src\debug\addon.xml
+F:\kzh\project\CGISS\src\debug\config.xml
+F:\kzh\project\CGISS\src\debug\GISDataTranslate.exe
+F:\kzh\project\CGISS\src\debug\GISDataTranslate.pdb
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.csprojResolveAssemblyReference.cache
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormAddon.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormBatch.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormConnectStorage.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormMain.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormProgress.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormQueryResult.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.FormTranslate.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.Properties.Resources.resources
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.csproj.GenerateResource.Cache
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.exe
+F:\kzh\project\CGISS\src\GISDataTranslate\obj\x86\Debug\GISDataTranslate.pdb

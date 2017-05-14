@@ -1,0 +1,55 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AddonContainer, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Interface GIS.ProgressCallback: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    OnProgress(Int64, Int64, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OnLog(String, ProgressLogLevel): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class GIS.AddonContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 ErrorCode 'get ' : 
+    Boolean IsValid 'get ' : 
+    Int32 Type 'get ' : 
+    System.String Description 'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Description(): PrivateScope, Public, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsValid(): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+    Execute(String, ProgressCallback): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class GIS.AddonContainer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String DllDirectory 'get set' : 
+  Methods:
+    get_DllDirectory(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_DllDirectory(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    CreateAddon(String, String): PrivateScope, Public, HideBySig
+    ParserDllExport(String): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct GIS.ProgressLogLevel: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    GIS.ProgressLogLevel eError = 2 : Public, Static, Literal, HasDefault
+    GIS.ProgressLogLevel eWarning = 1 : Public, Static, Literal, HasDefault
+    GIS.ProgressLogLevel eLog = 0 : Public, Static, Literal, HasDefault

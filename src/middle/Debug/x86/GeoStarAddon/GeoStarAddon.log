@@ -1,0 +1,110 @@
+﻿生成启动时间为 2016/10/10 15:45:33。
+     1>项目“F:\kzh\project\CGISS\src\Addons\GeoStar\GeoStarAddon\GeoStarAddon.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         f:\kzh\software\visual stdio 2010\VC\bin\CL.exe /c /I../../include /I../../include/tinyxml /I../include/utility /I../include/kernel /I../include/sparsehash/windows /I../include/sparsehash /I../include/vct /I../include/gpkg /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GEOSTARADDON_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.pch" /Fo"../../../middle/Debug/x86/GeoStarAddon/" /Fd"../../../middle/Debug/x86/GeoStarAddon/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         f:\kzh\software\visual stdio 2010\VC\bin\CL.exe /c /I../../include /I../../include/tinyxml /I../include/utility /I../include/kernel /I../include/sparsehash/windows /I../include/sparsehash /I../include/vct /I../include/gpkg /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GEOSTARADDON_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../../middle/Debug/x86/GeoStarAddon/" /Fd"../../../middle/Debug/x86/GeoStarAddon/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\include\tinyxml\tinyxml2.cpp
+         tinyxml2.cpp
+         f:\kzh\software\visual stdio 2010\VC\bin\CL.exe /c /I../../include /I../../include/tinyxml /I../include/utility /I../include/kernel /I../include/sparsehash/windows /I../include/sparsehash /I../include/vct /I../include/gpkg /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GEOSTARADDON_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../../../middle/Debug/x86/GeoStarAddon/" /Fd"../../../middle/Debug/x86/GeoStarAddon/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         f:\kzh\software\visual stdio 2010\VC\bin\CL.exe /c /I../../include /I../../include/tinyxml /I../include/utility /I../include/kernel /I../include/sparsehash/windows /I../include/sparsehash /I../include/vct /I../include/gpkg /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GEOSTARADDON_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.pch" /Fo"../../../middle/Debug/x86/GeoStarAddon/" /Fd"../../../middle/Debug/x86/GeoStarAddon/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Export.cpp ExportVCT.cpp GeoStarAddon.cpp GeoStarDLGAddonBase.cpp Import.cpp ImportVCT.cpp
+         ImportVCT.cpp
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\importvct.cpp(57): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\importvct.cpp(61): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>f:\kzh\software\visual stdio 2010\vc\include\xmemory(212): warning C4503: “google::dense_hashtable<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     Value=std::pair<const VCT_GEOMETRY_TYPE,google::dense_hash_map<std::string,IDCache>>,
+                     Key=VCT_GEOMETRY_TYPE,
+                     HashFcn=stdext::hash_compare<VCT_GEOMETRY_TYPE>,
+                     ExtractKey=google::dense_hash_map<VCT_GEOMETRY_TYPE,google::dense_hash_map<std::string,IDCache>>::SelectKey,
+                     SetKey=google::dense_hash_map<VCT_GEOMETRY_TYPE,google::dense_hash_map<std::string,IDCache>>::SetKey,
+                     EqualKey=std::equal_to<VCT_GEOMETRY_TYPE>,
+                     Alloc=std::allocator<google::dense_hash_map<std::string,IDCache>>
+                 ]
+         Import.cpp
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\import.cpp(288): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+         GeoStarDLGAddonBase.cpp
+         GeoStarAddon.cpp
+     1>f:\kzh\software\visual stdio 2010\vc\include\xmemory(212): warning C4503: “google::dense_hashtable<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>”: 超出修饰名的长度，名称被截断
+                 with
+                 [
+                     Value=std::pair<const VCT_GEOMETRY_TYPE,google::dense_hash_map<std::string,IDCache>>,
+                     Key=VCT_GEOMETRY_TYPE,
+                     HashFcn=stdext::hash_compare<VCT_GEOMETRY_TYPE>,
+                     ExtractKey=google::dense_hash_map<VCT_GEOMETRY_TYPE,google::dense_hash_map<std::string,IDCache>>::SelectKey,
+                     SetKey=google::dense_hash_map<VCT_GEOMETRY_TYPE,google::dense_hash_map<std::string,IDCache>>::SetKey,
+                     EqualKey=std::equal_to<VCT_GEOMETRY_TYPE>,
+                     Alloc=std::allocator<google::dense_hash_map<std::string,IDCache>>
+                 ]
+         ExportVCT.cpp
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\exportvct.cpp(21): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\exportvct.cpp(23): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\exportvct.cpp(25): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\exportvct.cpp(290): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\exportvct.cpp(447): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 f:\kzh\software\visual stdio 2010\vc\include\string.h(246) : 参见“stricmp”的声明
+     1>f:\kzh\software\visual stdio 2010\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 f:\kzh\software\visual stdio 2010\vc\include\xutility(2212) : 参见“std::_Copy_impl”的声明
+                 f:\kzh\project\cgiss\src\addons\geostar\geostaraddon\exportvct.cpp(100): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<GeoStar::Kernel::GsRawPoint*,GeoStar::Kernel::GsRawPoint3D*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=GeoStar::Kernel::GsRawPoint3D *,
+                     _InIt=GeoStar::Kernel::GsRawPoint *
+                 ]
+         Export.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.embed.manifest.res" ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon_manifest.rc 
+       Link:
+         f:\kzh\software\visual stdio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../Debug/x86/GeoStar/GeoStarAddon.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../../Debug/x86 /LIBPATH:../DebugLibx86 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\kzh\project\CGISS\src\Debug\x86\GeoStar\GeoStarAddon.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../Debug/x86/GeoStar/GeoStarAddon.lib" /MACHINE:X86 /DLL ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.embed.manifest.res
+         ../../../middle/Debug/x86/GeoStarAddon/tinyxml2.obj
+         ../../../middle/Debug/x86/GeoStarAddon/dllmain.obj
+         ../../../middle/Debug/x86/GeoStarAddon/Export.obj
+         ../../../middle/Debug/x86/GeoStarAddon/ExportVCT.obj
+         ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.obj
+         ../../../middle/Debug/x86/GeoStarAddon/GeoStarDLGAddonBase.obj
+         ../../../middle/Debug/x86/GeoStarAddon/Import.obj
+         ../../../middle/Debug/x86/GeoStarAddon/ImportVCT.obj
+         ../../../middle/Debug/x86/GeoStarAddon/stdafx.obj
+            正在创建库 ../../../Debug/x86/GeoStar/GeoStarAddon.lib 和对象 ../../../Debug/x86/GeoStar/GeoStarAddon.exp
+     1>LibVCT.lib(VCTRW.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“LibVCT.lib(VCTRW.obj)”或在“F:\kzh\project\CGISS\src\Debug\x86\GeoStar\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libgpkg.lib(geopackage.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libgpkg.lib(geopackage.obj)”或在“F:\kzh\project\CGISS\src\Debug\x86\GeoStar\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libgpkg.lib(sqlite3.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libgpkg.lib(sqlite3.obj)”或在“F:\kzh\project\CGISS\src\Debug\x86\GeoStar\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+       Manifest:
+         正在删除文件“../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.embed.manifest" /manifest ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.embed.manifest.res" ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon_manifest.rc 
+       LinkEmbedManifest:
+         f:\kzh\software\visual stdio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../Debug/x86/GeoStar/GeoStarAddon.dll" /INCREMENTAL /NOLOGO /LIBPATH:../../../Debug/x86 /LIBPATH:../DebugLibx86 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\kzh\project\CGISS\src\Debug\x86\GeoStar\GeoStarAddon.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../Debug/x86/GeoStar/GeoStarAddon.lib" /MACHINE:X86 /DLL ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.dll.embed.manifest.res
+         ../../../middle/Debug/x86/GeoStarAddon/tinyxml2.obj
+         ../../../middle/Debug/x86/GeoStarAddon/dllmain.obj
+         ../../../middle/Debug/x86/GeoStarAddon/Export.obj
+         ../../../middle/Debug/x86/GeoStarAddon/ExportVCT.obj
+         ../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.obj
+         ../../../middle/Debug/x86/GeoStarAddon/GeoStarDLGAddonBase.obj
+         ../../../middle/Debug/x86/GeoStarAddon/Import.obj
+         ../../../middle/Debug/x86/GeoStarAddon/ImportVCT.obj
+         ../../../middle/Debug/x86/GeoStarAddon/stdafx.obj
+            正在创建库 ../../../Debug/x86/GeoStar/GeoStarAddon.lib 和对象 ../../../Debug/x86/GeoStar/GeoStarAddon.exp
+     1>LibVCT.lib(VCTRW.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“LibVCT.lib(VCTRW.obj)”或在“F:\kzh\project\CGISS\src\Debug\x86\GeoStar\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libgpkg.lib(geopackage.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libgpkg.lib(geopackage.obj)”或在“F:\kzh\project\CGISS\src\Debug\x86\GeoStar\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libgpkg.lib(sqlite3.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libgpkg.lib(sqlite3.obj)”或在“F:\kzh\project\CGISS\src\Debug\x86\GeoStar\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         GeoStarAddon.vcxproj -> F:\kzh\project\CGISS\src\Addons\GeoStar\GeoStarAddon\../../../Debug/x86/GeoStar/GeoStarAddon.dll
+       FinalizeBuildStatus:
+         正在删除文件“../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.unsuccessfulbuild”。
+         正在对“../../../middle/Debug/x86/GeoStarAddon/GeoStarAddon.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\kzh\project\CGISS\src\Addons\GeoStar\GeoStarAddon\GeoStarAddon.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.11
